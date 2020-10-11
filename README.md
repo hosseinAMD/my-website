@@ -5,17 +5,17 @@ As soon as reaching first stable version you can see the result on [http://hosse
 
 ## Technologies and Tools
 
- 1. Next.js
- 2. TypeScript
- 3. TailwindCSS
+1.  Next.js
+2.  TypeScript
+3.  TailwindCSS
 
 ## Road Map
 
- - [ ] Menu and basic template
- - [ ] Main Page
- - [ ] Skills and abilities
- - [ ] Work experience
- - [ ] Education
- - [ ] Blog and Articles
- - [ ] Portfolio
- - [ ] Contact Page
+- [x] Menu and basic template
+- [ ] Main Page
+- [x] Skills and abilities
+- [ ] Work experience
+- [ ] Education
+- [ ] Blog and Articles
+- [ ] Portfolio
+- [ ] Contact Page
