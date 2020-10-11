@@ -75,7 +75,7 @@ const SkillList: React.FC = () => {
 
   return (
     <div className="container mx-auto my-8">
-      <div className="w-2/3 mx-auto flex-col space-y-3">
+      <div className="mx-4 lg:w-2/3 lg:mx-auto flex-col space-y-3">
         {abilities.map((item, index) => (
           <SkillItem
             key={index}
