@@ -7,7 +7,7 @@ export default function Home() {
         <title>Hossein Ahmadi</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <p>Cleaned Project</p>
+      <p className="text-2xl text-blue-500" >Test Tailwind</p>
     </div>
   );
 }
