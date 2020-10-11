@@ -10,7 +10,7 @@ import {
   DiNodejs,
 } from "react-icons/di";
 import { SiRedux, SiTypescript, SiTimescale } from "react-icons/si";
-import { FaSchool } from "react-icons/fa";
+import { FaSchool, FaMobile } from "react-icons/fa";
 import SkillItem from "./SkillItem";
 
 const SkillList: React.FC = () => {
@@ -26,7 +26,7 @@ const SkillList: React.FC = () => {
         "Experienced in creating beautiful styles using CSS processors (Less, Sass)",
     },
     {
-      icon: <DiResponsive />,
+      icon: <FaMobile />,
       description: "Strong experience in responsive and mobile-friendly design",
     },
     {
@@ -37,7 +37,7 @@ const SkillList: React.FC = () => {
     {
       icon: <DiUikit />,
       description:
-        "Implementation of User interfaces using libraries like TailwindCSS, Bootstrap, Material UI, AntDesign and …",
+        "Implementation of User interfaces using libraries like TailwindCSS, Bootstrap, Material UI, AntDesign",
     },
     {
       icon: <SiRedux />,
@@ -74,14 +74,16 @@ const SkillList: React.FC = () => {
   ];
 
   return (
-    <div>
-      {abilities.map((item, index) => (
-        <SkillItem
-          key={index}
-          icon={item.icon}
-          description={item.description}
-        />
-      ))}
+    <div className="container mx-auto my-8">
+      <div className="w-2/3 mx-auto flex-col space-y-3">
+        {abilities.map((item, index) => (
+          <SkillItem
+            key={index}
+            icon={item.icon}
+            description={item.description}
+          />
+        ))}
+      </div>
     </div>
   );
 };
