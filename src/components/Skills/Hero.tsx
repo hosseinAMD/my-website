@@ -1,6 +1,6 @@
 const Hero: React.FC = () => {
   return (
-    <div className="py-10 bg-yellow-400">
+    <div className="py-10 bg-hue">
       <div className="container mx-auto">
         <div className="w-2/3 mx-auto grid grid-cols-2 gap-8 items-center">
           <div>
