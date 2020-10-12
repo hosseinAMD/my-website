@@ -1,4 +1,5 @@
 import Hero from "components/Work/Hero";
+import WorkList from "components/Work/WorkList";
 import Head from "next/head";
 
 const Works: React.FC = () => {
@@ -8,6 +9,7 @@ const Works: React.FC = () => {
         <title>Work Experiences | Hossein Ahmadi</title>
       </Head>
       <Hero />
+      <WorkList />
     </div>
   );
 };
