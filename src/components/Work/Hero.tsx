@@ -1,5 +1,3 @@
-import { FaBuilding } from "react-icons/fa";
-
 const Hero: React.FC = () => {
   return (
     <div className="py-6 md:py-10 bg-blue-400">

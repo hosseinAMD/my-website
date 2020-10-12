@@ -2,7 +2,6 @@ import { IAbility } from "models/Ability";
 import {
   DiJsBadge,
   DiLess,
-  DiResponsive,
   DiReact,
   DiUikit,
   DiScrum,
