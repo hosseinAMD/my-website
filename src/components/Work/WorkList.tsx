@@ -40,7 +40,7 @@ export const workList: IWork[] = [
 
 const WorkList: React.FC = () => {
   return (
-    <div>
+    <div className="container mx-auto my-8 flex flex-col space-y-4 lg:grid lg:grid-cols-3 lg:space-y-0">
       {workList.map((item, index) => (
         <WorkItem key={index} {...item} />
       ))}
