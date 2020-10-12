@@ -14,7 +14,7 @@ As soon as reaching first stable version you can see the result on [http://hosse
 - [x] Menu and basic template
 - [ ] Main Page
 - [x] Skills and abilities
-- [ ] Work experience
+- [x] Work experience
 - [ ] Education
 - [ ] Blog and Articles
 - [ ] Portfolio
