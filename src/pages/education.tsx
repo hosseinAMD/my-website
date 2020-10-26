@@ -1,3 +1,4 @@
+import EducationList from "components/Education/EducationList";
 import Hero from "components/Education/Hero";
 import Head from "next/head";
 
@@ -8,6 +9,7 @@ const Works: React.FC = () => {
         <title>Academic Experiences | Hossein Ahmadi</title>
       </Head>
       <Hero />
+      <EducationList />
     </div>
   );
 };
