@@ -11,6 +11,9 @@ module.exports = {
           default: "#ffe300",
         },
       },
+      width: {
+        72: "18rem",
+      },
     },
   },
   variants: {},

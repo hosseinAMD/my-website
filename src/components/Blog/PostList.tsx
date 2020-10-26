@@ -11,7 +11,7 @@ export const posts: IPost[] = [
     publication: "codeburst",
   },
   {
-    title: "How to use React Context — Part 1",
+    title: "How to use React Context — Part 1 : Class Components",
     description: "A practical guide into React Context",
     image: "/img/context-1.jfif",
     url: "https://codeburst.io/how-to-use-react-context-part-1-1e4ce38fe2dd",
@@ -37,10 +37,13 @@ export const posts: IPost[] = [
 
 const PostList: React.FC = () => {
   return (
-    <div className="container mx-auto my-8 flex flex-col space-y-4 lg:grid lg:grid-cols-4 lg:space-y-0">
-      {posts.map((post, index) => (
-        <PostItem key={index} {...post} />
-      ))}
+    <div className="container mx-auto my-8">
+      <p className="text-3xl text-center font-bold text-gray-900 mb-6">Blog</p>
+      <div className="flex flex-col space-y-4 md:grid md:grid-cols-2 lg:grid-cols-4 lg:space-y-0">
+        {posts.map((post, index) => (
+          <PostItem key={index} {...post} />
+        ))}
+      </div>
     </div>
   );
 };
