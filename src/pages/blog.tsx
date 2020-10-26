@@ -1,3 +1,4 @@
+import PostList from "components/Blog/PostList";
 import Head from "next/head";
 
 const Blog: React.FC = () => {
@@ -6,6 +7,7 @@ const Blog: React.FC = () => {
       <Head>
         <title>Blogs | Hossein Ahmadi</title>
       </Head>
+      <PostList />
     </div>
   );
 };
