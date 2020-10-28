@@ -1,3 +1,5 @@
+import ContactForm from "./ContactForm";
+
 const Container: React.FC = () => {
   return (
     <div className="container mx-auto my-8">
@@ -18,7 +20,9 @@ const Container: React.FC = () => {
             className="w-full"
           />
         </div>
-        <div></div>
+        <div>
+          <ContactForm />
+        </div>
       </div>
     </div>
   );
