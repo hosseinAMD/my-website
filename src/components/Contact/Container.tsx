@@ -12,7 +12,7 @@ const Container: React.FC = () => {
           have a valid <strong className="text-blue-600">job offer</strong>
         </p>
       </div>
-      <div className="flex flex-col space-y-4 md:grid md:grid-cols-2 md:space-y-0 md:w-2/3 md:mx-auto">
+      <div className="flex flex-col space-y-4 md:grid md:grid-cols-2 md:space-y-0 md:gap-4 md:w-2/3 md:mx-auto">
         <div>
           <img
             src="/img/me-transparent.png"
@@ -20,7 +20,7 @@ const Container: React.FC = () => {
             className="w-full"
           />
         </div>
-        <div>
+        <div className="pt-16">
           <ContactForm />
         </div>
       </div>

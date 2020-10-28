@@ -14,6 +14,9 @@ module.exports = {
       width: {
         72: "18rem",
       },
+      borderWidth: {
+        1: "1px",
+      },
     },
   },
   variants: {},
