@@ -1,3 +1,4 @@
+import Container from "components/Contact/Container";
 import Head from "next/head";
 
 const Contact: React.FC = () => {
@@ -6,6 +7,7 @@ const Contact: React.FC = () => {
       <Head>
         <title>Contact | Hossein Ahmadi</title>
       </Head>
+      <Container />
     </div>
   );
 };
