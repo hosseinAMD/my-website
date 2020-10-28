@@ -1,3 +1,4 @@
+import ContactBadges from "./ContactBadges";
 import ContactForm from "./ContactForm";
 
 const Container: React.FC = () => {
@@ -11,6 +12,9 @@ const Container: React.FC = () => {
           <strong className="text-blue-600">developing a project</strong> or
           have a valid <strong className="text-blue-600">job offer</strong>
         </p>
+      </div>
+      <div className="my-8">
+        <ContactBadges />
       </div>
       <div className="flex flex-col space-y-4 md:grid md:grid-cols-2 md:space-y-0 md:gap-4 md:w-2/3 md:mx-auto">
         <div>
