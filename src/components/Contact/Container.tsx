@@ -10,7 +10,16 @@ const Container: React.FC = () => {
           have a valid <strong className="text-blue-600">job offer</strong>
         </p>
       </div>
-      <div>Content</div>
+      <div className="flex flex-col space-y-4 md:grid md:grid-cols-2 md:space-y-0 md:w-2/3 md:mx-auto">
+        <div>
+          <img
+            src="/img/me-transparent.png"
+            alt="Hossein Ahmadi Photo"
+            className="w-full"
+          />
+        </div>
+        <div></div>
+      </div>
     </div>
   );
 };
