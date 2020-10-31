@@ -38,8 +38,13 @@ export const posts: IPost[] = [
 const PostList: React.FC = () => {
   return (
     <div className="container mx-auto my-8">
-      <p className="text-3xl text-center font-bold text-gray-900 mb-6">Blog</p>
-      <div className="flex flex-col space-y-4 md:grid md:grid-cols-2 lg:grid-cols-4 lg:space-y-0">
+      <div className="text-center flex flex-col space-y-6">
+        <p className="text-3xl text-gray-900 font-semibold">Blog</p>
+        <p className="w-1/2 mx-auto text-lg text-gray-900">
+         Latest posts and articles
+        </p>
+      </div>
+      <div className="flex flex-col space-y-4 mt-8 md:grid md:grid-cols-2 lg:grid-cols-4 lg:space-y-0">
         {posts.map((post, index) => (
           <PostItem key={index} {...post} />
         ))}
